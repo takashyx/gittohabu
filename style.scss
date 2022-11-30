@@ -1,13 +1,16 @@
-@import "primer/index.scss";
+@import './node_modules/@primer/css/utilities/index.scss';
 
 body {
-    /*background-image: url(bg.png);*/
-    /*background-repeat: repeat;*/
+  /*background-image: url(bg.png);*/
+  /*background-repeat: repeat;*/
 }
 
 .octicon {
-  display: inline-block; /* 公式と同じ */
-  fill: currentColor;    /* 公式と同じ */
+  display: inline-block;
+  /* 公式と同じ */
+  fill: currentColor;
+  /* 公式と同じ */
   vertical-align: text-bottom;
-  height: 1.4em; /* 大きさは height で指定 */
+  height: 1.4em;
+  /* 大きさは height で指定 */
 }
